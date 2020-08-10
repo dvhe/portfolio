@@ -10,12 +10,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
-
-
 * {
   background: var(--dark-bg);
   padding: 0;
@@ -81,7 +75,7 @@ body {
   margin-top: 35px;
   font-size: 14px;
   color: #7aa0d0;
-  width: 150%;
+  width: 500px;
 }
 
 .icons-column a {
@@ -142,23 +136,23 @@ body {
   }
 
   .intro-title {
-    width: 100%;
-    font-size: 25px;
+    /* width: 100%; */
+    font-size: 32px;
     color: #e4e4e4;
   }
 
   .intro-title span {
-    color: white;
-    font-size: 45px;
+    color: #fff;
+    font-size: 54px;
   }
 
   .intro-message {
     margin-top: 29px;
-    font-size: 15px;
+    font-size: 29px;
   }
 
   .intro-link {
-    font-size: 15px;
+    font-size: 29px;
   }
 
   .intro-link:hover {
@@ -172,18 +166,14 @@ body {
   }
 
   .icons-column {
-    margin: 24px 50px 0px 0px;
-    font-size: 10px;
+    margin: 25px 50px 0 0;
+    font-size: 21px;
     color: #7aa0d0;
-    width: 125%;
+    width: 400px;
   }
 
   .spotify-column {
-    display: inline-block;
+    font-size: 15px;
+    margin: 165px 82px 0; 
   }
-
-  /* .intro-message a {
-    color: #828284;
-    text-decoration: underline;
-  } */
 }
