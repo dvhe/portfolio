@@ -1,0 +1,160 @@
+:root {
+ --dark-bg: #181A1B;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat,Open Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Helvetica Neue,sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+* {
+  background: var(--dark-bg);
+  padding: 0;
+  margin: 0;
+}
+
+.intro-column {
+  position: relative;
+  display: inline-block;
+  left: 10%;
+  top: 0;
+  margin-top: 10%;
+  width: 26%;
+  text-align: left;
+  color: white;
+}
+
+.intro-title {
+  font-size: 40px;
+  width: 500px;
+  font-weight: normal;
+}
+
+.intro-title span {
+  display: block;
+  font-size: 70px;
+  font-weight: 600;
+}
+
+.intro-message {
+  margin-top: 50px;
+  font-size: 14px;
+  color: #676768;
+}
+
+.intro-link {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+}
+
+.intro-link:hover {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.projects-column {
+  position: relative;
+  display: inline-block;
+  left: 29%;
+  color: white;
+  top: 0;
+  margin-top: 10%;
+  width: 26%;
+}
+
+.projects-text {
+  /* top: 5px; */
+  color: white; /* just incase I want to override the project font color */
+}
+
+.icons-column {
+  margin-top: 35px;
+  font-size: 14px;
+  color: #7aa0d0;
+  width: 125%;
+}
+
+.icons-column a {
+  cursor: pointer;
+}
+
+.icons-column a:hover {
+  color: #6186b4 !important;
+  text-decoration: none;
+}
+
+.icons-column a:visited {
+  color: #7aa0d0;
+}
+
+.socials {
+  margin-right: 12px;
+}
+
+.socials-icon {
+  margin-right: 5px;
+}
+
+.spotify-column {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 165px 55px 0; 
+  font-size: 12px;
+  color: #396E50;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .intro-column {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 70%;
+    height: 90%;
+  }
+
+  .intro-title {
+    width: 100%;
+    font-size: 30px;
+    color: #e4e4e4;
+  }
+
+  .intro-title span {
+    color: white;
+  }
+
+  .intro-message {
+    font-size: 20px;
+  }
+
+  .intro-link {
+    font-size: 20px;
+  }
+
+  .intro-link:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+
+  .projects-column {
+    position: absolute;
+    top: 80%;
+  }
+
+  /* .intro-message a {
+    color: #828284;
+    text-decoration: underline;
+  } */
+}
