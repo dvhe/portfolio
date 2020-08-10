@@ -20,10 +20,10 @@ function App() {
           In my free time I like to develop small projects like <a href="https://github.com/scrap/portfolio" className="intro-link">this</a></p>
 
           <div className="icons-column">
-            <a className="socials" href="https://github.com/scrap"><FontAwesomeIcon icon={faGithubAlt} className="socials-icon" />scrap</a>
-            <a className="socials" href="https://github.com/scrap"><FontAwesomeIcon icon={faTwitter} className="socials-icon" />Imposed_</a>
-            <a className="socials" href="https://github.com/scrap"><FontAwesomeIcon icon={faDiscord} className="socials-icon" />Imposed#0001</a>
-            <a className="socials" href="https://github.com/scrap"><FontAwesomeIcon icon={faMailBulk} className="socials-icon" />me@impd.cc</a>
+          <FontAwesomeIcon icon={faGithubAlt} className="socials-icon" /><a className="socials" href="https://github.com/scrap">scrap</a>
+            <FontAwesomeIcon icon={faTwitter} className="socials-icon" /><a className="socials" href="https://twitter.com/imposed_">Imposed_</a>
+            <FontAwesomeIcon icon={faDiscord} className="socials-icon" /><a className="socials" href="/">Imposed#0001</a>
+            <FontAwesomeIcon icon={faMailBulk} className="socials-icon" /><a className="socials" href="mailto: me@impd.cc">me@impd.cc</a>
           </div>
         </div>
 
