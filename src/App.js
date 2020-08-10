@@ -16,7 +16,7 @@ function App() {
         <div className="intro intro-column">
           <h1 className="intro-title">Hello, my name is <span>Kyle Bennett</span></h1>
 
-          <p className="intro-message">I am a backend developer currently working on <a href="pebblo.org" className="intro-link">pebblo</a>.
+          <p className="intro-message">I am a backend developer currently working on <a href="https://pebblo.org" className="intro-link">pebblo</a>.
           In my free time I like to develop small projects like <a href="https://github.com/scrap/portfolio" className="intro-link">this</a></p>
 
           <div className="icons-column">
