@@ -81,7 +81,7 @@ body {
   margin-top: 35px;
   font-size: 14px;
   color: #7aa0d0;
-  width: 125%;
+  width: 150%;
 }
 
 .icons-column a {
@@ -143,20 +143,22 @@ body {
 
   .intro-title {
     width: 100%;
-    font-size: 30px;
+    font-size: 25px;
     color: #e4e4e4;
   }
 
   .intro-title span {
     color: white;
+    font-size: 45px;
   }
 
   .intro-message {
-    font-size: 20px;
+    margin-top: 29px;
+    font-size: 15px;
   }
 
   .intro-link {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .intro-link:hover {
@@ -167,6 +169,17 @@ body {
   .projects-column {
     position: absolute;
     top: 80%;
+  }
+
+  .icons-column {
+    margin: 24px 50px 0px 0px;
+    font-size: 10px;
+    color: #7aa0d0;
+    width: 125%;
+  }
+
+  .spotify-column {
+    display: inline-block;
   }
 
   /* .intro-message a {
