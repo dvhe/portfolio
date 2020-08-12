@@ -8,7 +8,7 @@ function App() {
   return (
     <>
         <MetaTags>
-          <title>Who is Imposed?</title>
+          <title>Kyle Bennett</title>
           <meta id="meta-description" name="description" content="Backend Developer | Co-Founder of pebblo.org | Vue, React, JavaScript, TypeScript, Python" />
           <meta id="og-title" property="og:title" content="Kyle Bennett" />
           <meta id="theme-color" content="#4A86E8" />
