@@ -23,7 +23,7 @@ function App() {
             <a className="socials" href="https://github.com/scrap" target="_blank"><FontAwesomeIcon icon={faGithubAlt} className="socials-icon" />scrap</a>
             <a className="socials" href="https://twitter.com/_imposed" target="_blank"><FontAwesomeIcon icon={faTwitter} className="socials-icon" />_Imposed</a>
             <a className="socials" href="https://discordapp.com/users/583925649807245322" target="_blank"><FontAwesomeIcon icon={faDiscord} className="socials-icon" />Imposed#0001</a>
-            <a className="socials" href="mailto: me@impd.cc"><FontAwesomeIcon icon={faMailBulk} className="socials-icon" />me@impd.cc</a>
+            <a className="socials" href="mailto: k00benne@gmail.com"><FontAwesomeIcon icon={faMailBulk} className="socials-icon" />k00benne@gmail.com</a>
           </div>
         </div>
 
