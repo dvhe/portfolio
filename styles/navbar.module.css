@@ -1,0 +1,11 @@
+.navbar {
+    position: relative;
+    height: 25px;
+    left: 50%;
+    width: 50%;
+    /* background: saddlebrown; */
+    transform: translate(-50%);
+}
+
+.navbar_links_right {
+}

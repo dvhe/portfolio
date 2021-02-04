@@ -1,0 +1,101 @@
+/*.Button {
+    font-weight: 600;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    outline: none;
+    padding: 12px 20px;
+    border-radius: 100px;
+    border: none;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    height: 50%;
+}
+*/
+
+.container {
+  margin: 50px auto;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header_frame {
+  max-width: 50%;
+}
+
+.header h1 {
+  color: #e8e6e3;
+  margin: 0;
+  font-weight: 400;
+}
+
+.header h2 {
+  color: #9c9c9c;
+  font-weight: 400;
+  max-width: 70%;
+}
+
+.profile {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  margin: 0 0 10px 0;
+  max-width: 80%;
+}
+
+.profile img {
+  position: absolute;
+  border-radius: 50%;
+  overflow: hidden;
+  transform: translate(-50%);
+  height: 250px;
+  width: 250px;
+}
+
+.links {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 25px 0;
+  color: #4287f5;
+  cursor: pointer;
+  /*text-decoration: underline;*/
+}
+
+.links a:not(:last-child) {
+  padding: 0 16px 0 0;
+}
+
+.links a:hover {
+  color: #244d8f !important;
+}
+
+.links a:visited {
+  color: inherit;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  .header h2 {
+    max-width: 86%;
+  }
+
+  .profile img {
+    transform: translate(-7%);
+  }
+}
